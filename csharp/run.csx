@@ -1,4 +1,4 @@
-public static void Run(string x)  
+public static void Run(string y)  
 {
-    log.Info($"Blob trigger processing: {x}");
+    log.Info($"Blob trigger processing: {y}");
 } 
