@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path":"first/a/{y}"
+    },
+    {
+      "name": "myInputBlob",
+      "type": "blob",
+      "path": "first/log",
+      "direction": "in"
+    },
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "first/log",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
